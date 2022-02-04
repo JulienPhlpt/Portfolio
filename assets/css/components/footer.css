@@ -27,6 +27,10 @@
     row-gap: 1.5rem;
 }
 
+.footer__links li {
+    width: max-content;
+}
+
 .footer__link:hover {
     color: var(--first-color-lighter);
 }
@@ -43,7 +47,7 @@
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: var(--first-color-lighter);
     margin-top: var(--mb-3);
 }
 

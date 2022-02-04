@@ -15,7 +15,7 @@
 .button__icon {
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
-    transition: .3s;
+    transition: transform .3s;
 }
 
 .button--white {
@@ -23,9 +23,21 @@
     color: var(--first-color);
 
 }
-
 .button--white:hover {
-    background-color: #fff;
+    background-color: var(--first-color-alt);
+    color: #fff;
+}
+
+.button--white:hover i {
+    transform: translateX(0.25rem);
+}
+
+.button--about:hover i {
+    transform: translateY(0.25rem);
+}
+
+.button--contact:hover i {
+    transform: translateX(0.25rem);
 }
 
 .button--flex {

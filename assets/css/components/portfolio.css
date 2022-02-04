@@ -22,13 +22,12 @@
     margin-bottom: var(--mb-0-75);
 }
 
-.portfolio__button:hover {
+.btn-wait:hover {
     cursor: wait;
 }
 
 .portfolio__button:hover .button__icon {
     transform:  translateX(.25rem);
-    cursor: wait;
 }
 
 .portfolio__button .uil-apple {
