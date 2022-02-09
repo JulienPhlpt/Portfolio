@@ -15,6 +15,7 @@
 @import url("components/testimonial.css");
 @import url("components/contact.css");
 @import url("components/footer.css");
+@import url("components/thanks.css");
 
 /*==================== BASE ====================*/
 * {
@@ -70,6 +71,7 @@ img {
 .section__title,
 .section__subtitle {
     text-align: center;
+    margin-top: auto;
 }
 
 /*==================== LAYOUT ====================*/
@@ -295,7 +297,7 @@ img {
     }
 
     .home__blob {
-        width: 270px;
+        /* width: 270px; */
     }
 
     .home__scroll {

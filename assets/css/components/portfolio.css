@@ -22,19 +22,6 @@
     margin-bottom: var(--mb-0-75);
 }
 
-.btn-wait:hover {
-    cursor: wait;
-}
-
-.portfolio__button:hover .button__icon {
-    transform:  translateX(.25rem);
-}
-
-.portfolio__button .uil-apple {
-    margin-right: var(--mb-0-5);
-    cursor: wait;
-}
-
 .swiper-button-prev::after,
 .swiper-button-next::after {
     content: "";

@@ -5,29 +5,51 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" sizes="32x32" href="css/images/icon-light.svg">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="icon" type="image/png" sizes="64x64" href="../assets/img/logo-light.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link
             href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&family=Poppins:wght@300;400;700&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
         <title>Thank you</title>
     </head>
 
     <body>
-        <div class="container">
-            <div class="bouncing-loader">
-                <div></div>
-                <div></div>
-                <div></div>
+        <section class="thanks">
+            <div class="thanks__img">
+                <svg class="thanks__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+            
+                        <image class="thanks__blob-img" x="10" y="10" xlink:href="../assets/img/profil-check.png">
+                    </g>
+                </svg>
             </div>
-            <h3>Under Construction...</h3>
-            <h1>Julien Philippot</h1>
-            <h2 class="tracking-in-expand">Front end Developer</h2>
-            <a class="contact" href="mailto:julien.philippot86@gmail.com">
-                <span data-hover="Contact me">Contact me</span>
+            <div class="sa-icon sa-success animate">
+                <span class="sa-line sa-tip animateSuccessTip"></span>
+                <span class="sa-line sa-long animateSuccessLong"></span>
+                <div class="sa-placeholder"></div>
+                <div class="sa-fix"></div>
+            </div>
+            <h2 class="section__title">Thank you !</h2>
+            <p>Your email has been successfully sent.</p>
+            <a href="/index.html" target="blank" class="button button--flex button--small thanks__button">
+                <i class="uil uil-arrow-left button__return"></i>
+                Back to website
             </a>
-        </div>
+        </section>
     </body>
 
 </html>

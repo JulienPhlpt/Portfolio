@@ -24,11 +24,40 @@ button {
     transition: transform .3s;
 }
 
+.button__return {
+    margin-right: var(--mb-0-5);
+    font-size: 1.25rem;
+    transition: transform .3s;
+}
+
+.thanks__button {
+    justify-content: center;
+    width: fit-content;
+    margin: 3rem auto;
+}
+
+.thanks__button:hover i {
+    transform: translateX(-.25rem);
+}
+
 .button--white {
     background-color: #fff;
     color: var(--first-color);
-
 }
+
+.btn-wait:hover {
+    cursor: wait;
+}
+
+.portfolio__button:hover .button__icon {
+    transform:  translateX(.25rem);
+}
+
+.portfolio__button .uil-apple {
+    margin-right: var(--mb-0-5);
+    cursor: wait;
+}
+
 .button--white:hover {
     background-color: var(--first-color-alt);
     color: #fff;
