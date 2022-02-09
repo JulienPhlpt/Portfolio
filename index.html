@@ -855,23 +855,22 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label class="contact__label">Name</label>
-                                <input type="text" name="name" class="contact__input" >
+                                <input type="text" name="name" class="contact__input" required>
                             </div>
                             <div class="contact__content">
                                 <label class="contact__label">Email</label>
-                                <input type="email" name="email" class="contact__input" >
+                                <input type="email" name="email" class="contact__input" required>
                             </div>
                         </div>
                         <div class="contact__content">
                             <label class="contact__label">Project</label>
-                            <input type="text" name="project" class="contact__input">
+                            <input type="text" name="project" class="contact__input" required>
                         </div>
                         <div class="contact__content">
                             <label class="contact__label">Message</label>
-                            <textarea name="message" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="message" cols="0" rows="7" class="contact__input" required></textarea>
                         </div>
-                        <input type="hidden" name="_next" value="/pages/thanks.html">
-                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://www.julien-philippot.com/pages/thanks.html">
                         <input type="hidden" name="subject" value="New email from website !">
                         <div>
                             <button type="submit" class="button button--contact button--flex">
