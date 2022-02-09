@@ -1,4 +1,10 @@
 /*==================== BUTTONS ====================*/
+button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
+
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -34,6 +40,10 @@
 
 .button--about:hover i {
     transform: translateY(0.25rem);
+}
+
+.button--contact {
+    border: none;
 }
 
 .button--contact:hover i {

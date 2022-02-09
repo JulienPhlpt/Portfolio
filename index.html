@@ -13,8 +13,8 @@
 
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Responsive Portfolio Website</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/profil.png">
+        <title>Julien Philippot - FRONT END DEVELOPER</title>
     </head>
 
     <body>
@@ -655,45 +655,49 @@
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
 
-                        <!--==================== PORTFOLIO 1 ====================-->
+                        <!--==================== PORTFOLIO ASTRAGA ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/astraga.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Astraga</h3>
-                                <p class="portfolio__description">Website adaptable to all devices, with ui components
-                                    and animated interactions.</p>
+                                <p class="portfolio__description">
+                                    Custom Wordpress Website adaptable to all devices, with ui components and animated interactions.
+                                    ASTRAGA is a digital and creative agency.
+                                </p>
                                 <a href="https://www.astraga.fr" target="blank"
                                     class="button button--flex button--small portfolio__button">
-                                    Demo
+                                    Visit
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
                             </div>
                         </div>
 
-                        <!--==================== PORTFOLIO 2 ====================-->
+                        <!--==================== PORTFOLIO YVET ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/yevt.jpg" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Yvet</h3>
-                                <p class="portfolio__description">Website adaptable to all devices, with ui components
-                                    and animated
-                                    interactions.</p>
+                                <p class="portfolio__description">
+                                    Website adaptable to all devices.
+                                    The only global HR solution dedicated to the veterinary profession that offers an evolving range of recruitment services.
+                                </p>
                                 <a href="https://www.yvet.io" target="blank"
                                     class="button button--flex button--small portfolio__button">
-                                    Demo
+                                    Visit
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
                             </div>
                         </div>
 
-                        <!--==================== PORTFOLIO 3 ====================-->
+                        <!--==================== PORTFOLIO TOOLWATCH ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                            <img src="assets/img/toolwatch.png" alt="" class="portfolio__img">
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Toolwatch</h3>
-                                <p class="portfolio__description">Website adaptable to all devices, with ui components
-                                    and animated
-                                    interactions.</p>
+                                <p class="portfolio__description">
+                                    Mobile App.
+                                    Toolwatch is the most convenient and easy way to measure the accuracy of your mechanical watch.
+                                </p>
                                 <a class="button button--flex button--small portfolio__button btn-wait">
                                     <i class="uil uil-apple"></i>
                                     <p class="portfolio_coming">Coming Soon</p>
@@ -734,13 +738,13 @@
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
+            <!-- <section class="testimonial section">
                 <h2 class="section__title">Testimonal</h2>
                 <span class="section__subtitle">My client saying</span>
                 <div class="testimonial__container container swiper-container">
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper"> -->
                         <!--==================== TESTIMONIAL 1 ====================-->
-                        <div class="testimonial__content swiper-slide">
+                        <!-- <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
@@ -761,10 +765,10 @@
                                 I carry out my project with all the possible quality and attention and support 24 hours
                                 a day.
                             </p>
-                        </div>
+                        </div> -->
 
                         <!--==================== TESTIMONIAL 2 ====================-->
-                        <div class="testimonial__content swiper-slide">
+                        <!-- <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
@@ -785,10 +789,10 @@
                                 I carry out my project with all the possible quality and attention and support 24 hours
                                 a day.
                             </p>
-                        </div>
+                        </div> -->
 
                         <!--==================== TESTIMONIAL 3 ====================-->
-                        <div class="testimonial__content swiper-slide">
+                        <!-- <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
@@ -809,13 +813,13 @@
                                 I carry out my project with all the possible quality and attention and support 24 hours
                                 a day.
                             </p>
-                        </div>
-                    </div>
+                        </div> -->
+                    <!-- </div> -->
 
                     <!--==================== PAGINATION ====================-->
-                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                    <!-- <div class="swiper-pagination swiper-pagination-testimonial"></div>
                 </div>
-            </section>
+            </section> -->
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
@@ -847,30 +851,33 @@
                             </div>
                         </div>
                     </div>
-                    <form action="" class="contact__form grid">
+                    <form action="https://formsubmit.co/julien.philippot86@gmail.com" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <label class="contact__label">Name</label>
+                                <input type="text" name="name" class="contact__input" >
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <label class="contact__label">Email</label>
+                                <input type="email" name="email" class="contact__input" >
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
+                            <label class="contact__label">Project</label>
+                            <input type="text" name="project" class="contact__input">
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <label class="contact__label">Message</label>
+                            <textarea name="message" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
+                        <input type="hidden" name="_next" value="www.julien-philippot.com/thanks.html">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="subject" value="New email from website !">
                         <div>
-                            <a href="#" class="button button--contact button--flex">
+                            <button type="submit" class="button button--contact button--flex">
                                 Send message
                                 <i class="uil uil-message button__icon"></i>
-                            </a>
+                            </button>
                         </div>
                     </form>
                 </div>
