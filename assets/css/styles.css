@@ -211,7 +211,9 @@ img {
 
     .home__data {
         grid-column: initial;
+        text-align: unset;
     }
+    
 
     .home__img {
         order: 1;
@@ -225,6 +227,18 @@ img {
     .contact__container,
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills__grid {
+        gap: 1.5rem;
+    }
+
+    .skills__list {
+        padding-right: 0;
+    }
+
+    .portfolio__content {
+        text-align: left;
     }
 
     .qualification__sections {
@@ -294,10 +308,6 @@ img {
     .home__content {
         padding-top: 5.5rem;
         column-gap: 2rem;
-    }
-
-    .home__blob {
-        /* width: 270px; */
     }
 
     .home__scroll {

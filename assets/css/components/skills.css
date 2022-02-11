@@ -1,6 +1,7 @@
 /*==================== SKILLS ====================*/
 .skills__container {
-    row-gap: 0;
+    display: grid;
+    gap: 0;
 }
 
 .skills__header {
@@ -36,7 +37,7 @@
 
 .skills__list {
     row-gap: 1.5rem;
-    padding-left: 2.7rem;
+    padding: 0 2.7rem;
 }
 
 .skills__titles {
