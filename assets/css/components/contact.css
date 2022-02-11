@@ -24,6 +24,11 @@
     color: var(--text-color-light);
 }
 
+.contact__subtitle a[href^=tel] {
+    color : inherit;
+    text-decoration: none;
+}
+
 .contact__content {
     background-color: var(--input-color);
     border-radius: .5rem;
