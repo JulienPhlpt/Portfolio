@@ -1,7 +1,7 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
-const   navMenu = document.getElementById('nav-menu'),
-        navToggle = document.getElementById('nav-toggle'),
-        navClose = document.getElementById('nav-close')
+const navMenu = document.getElementById('nav-menu'),
+    navToggle = document.getElementById('nav-toggle'),
+    navClose = document.getElementById('nav-close')
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -190,6 +190,40 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-
-// Copyright Year
+/*==================== COPYRIGHT YEAR ====================*/
 document.querySelector('#copyright__year').innerText = new Date().getFullYear();
+
+/*==================== CONTACT MAIL ====================*/
+(function() {
+    // https://dashboard.emailjs.com/admin/integration
+    emailjs.init('user_ShIAPr6D5hHCh497UifGn');
+})();
+
+const form = document.getElementById('contact-form');
+
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const serviceID = 'contact_service',
+        templateID = 'contact_form1'
+
+    emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+            Swal.fire({
+                title: 'Your message has been successfully sent',
+                imageUrl: 'assets/img/profil-check.png',
+                imageWidth: 200,
+                imageHeight: 200,
+            })
+        }, (err) => {
+            Swal.fire({
+                title: 'Oops...',
+                text: 'Something went wrong!', err,
+                imageUrl: 'assets/img/profil-error.png',
+                imageWidth: 200,
+                imageHeight: 200,
+            })
+        }, form.reset());
+    
+});

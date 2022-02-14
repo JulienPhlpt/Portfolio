@@ -17,11 +17,16 @@
 
 .home__social-icon {
     font: 1.25rem;
+    background-color: var(--container-color);
     color: var(--first-color);
+    padding: .25rem;
+    border-radius: .25rem;
+    transition: .4s;
 }
 
 .home__social-icon:hover {
-    color: var(--first-color-alt);
+    background-color: var(--first-color);
+    color: #fff;
 }
 
 .home__blob {

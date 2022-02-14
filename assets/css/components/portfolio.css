@@ -45,6 +45,10 @@
     bottom: -2.5rem;
 }
 
+.swiper-pagination-bullet {
+    background-color: var(--first-color-alt);
+}
+
 .swiper-pagination-bullet-active {
     background-color: var(--first-color);
 }

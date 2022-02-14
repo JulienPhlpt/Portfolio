@@ -1,0 +1,24 @@
+.swal2-image {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.swal2-title {
+    padding: 0 1em;
+}
+
+/*========== Sweet Alert BTN ==========*/
+.swal2-styled.swal2-confirm {
+    background-color: var(--first-color) !important;
+    border-radius: .5rem !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: none !important;
+}
+
+.swal2-styled.swal2-confirm:hover {
+    background-color: var(--first-color-alt) !important;
+}
